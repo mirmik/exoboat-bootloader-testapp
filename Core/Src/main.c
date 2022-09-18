@@ -95,7 +95,7 @@ int main(void)
   SystemClock_Config();
 
   /* USER CODE BEGIN SysInit */
-  SCB->VTOR = 0x08010000;
+  SCB->VTOR = 0x08020000;
 
   /* USER CODE END SysInit */
 
